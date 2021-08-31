@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+ <link rel="stylesheet" href="contact.css">
+ <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="header">
+        <nav class="nav" id="nav">
+          <div class="nav-center">
+            <div class="nav-header">
+              <button class="btn-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+              <img src="/assets/dieufdieul-logo.jpg" alt="" class="logo">
+            </div>
+            </nav>
+            <aside class="sidebar">
+              <div>
+              <button class="btn-close">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="nav-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="products.html">nos produits</a></li>
+                <li><a href="about.html">a propos de nous</a></li>
+                <li><a href="contact.html">contact</a></li>
+              </ul>
+              <ul class="icons-nav">
+                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+              </ul>
+              </div>
+            </aside>
+            
+          </div>
+        
+      </header>
+
+
+
+      
+ <section class="section section-center content">
+      <h1 class="title">envoyer nous Message on vous repond le plus vite possible</h1>
+      <form class="form">
+        <div class="form-control">
+          <label for="name">Non</label>
+          <input type="text" class="name-input" id="name" />
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" class="email-input" id="email" />
+        </div>
+        <div class="form-control">
+          <label for="subject">sujet</label>
+          <input type="text" class="subject-input" id="subject" />
+        </div>
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea id="message" class="message-input" rows="5"> </textarea>
+        </div>
+        <p class="alert">display alert here</p>
+        <button type="submit" class="submit-btn">Message envoyer</button>
+      </form>
+    </section>
+</body>
+<script src="./navbar.js"></script>
+</html>

@@ -1,0 +1,65 @@
+/*
+=============== 
+Fonts
+===============
+
+=============== 
+Variables
+===============
+*/
+
+:root {
+  --black-choise:#000814;
+  --white-choise:#f7fff7;
+ --fisrt-color:#14213d;
+ --choise-color:#ffffff;
+  --primary-color:#264653;
+  --secondary-color:#03045e;
+  --third-color:#d62828;
+  --fourth-color:#1b4332;
+  --fifty-color:#dddf00;
+  --clr-black: #222;
+  --ff-primary: 'Montserrat', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+a{
+text-decoration: none;
+color: var(--third-color);
+font-weight: 400;
+}
+a:hover{
+ color: var(--black-choise);
+}
+body{
+ text-transform: uppercase;
+ 
+}
+.result{
+ text-align: center;
+
+}
+.result img{
+ max-width: 25rem;
+ object-fit: cover;
+  border-radius: 15px;
+}
+.title{
+ font-size: 2rem;
+ color:var(--black-choise);
+ cursor: pointer;
+}
+.price{
+ color: var(--third-color);
+ font-size: 2rem;
+ cursor: pointer;
+}
+.desc{
+ font-size: 1.5rem;
+ font-weight: 300;
+}

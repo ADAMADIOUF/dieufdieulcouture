@@ -322,7 +322,7 @@ Slider
   font-size: 3rem;
   position: absolute;
   top: 0;
-  right: -5rem;
+  right: 5rem;
   color:var(--clr-black);
 }
 }

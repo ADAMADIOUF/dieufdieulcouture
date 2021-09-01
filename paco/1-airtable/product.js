@@ -5,7 +5,7 @@ const fetchProduct = async () => {
  result.innerHTML = `<h2>loading...</h2>`
 try {
  const id = window.location.search
- const {data:{fields}} = await axios.get(`/.netlify/functions/1-product${id}`)
+ const {data:{fields}} = await axios.get(`/.netlify/functions/dieufdieul${id}`)
 const {name,desc,price,image} = fields
 result.innerHTML = `<h1 class="title">${name}</h1>
 <article class="product">
